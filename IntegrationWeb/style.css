@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    max-width: 1160px;
+    margin: 80px auto 0 auto;
+}
+
+p {
+    font-size: 16px;
+}
+
+.btn-red {
+    border: none;
+    background-color: #b90032;
+    max-width: 230px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #b90032;
+}
+
+header {
+    background-color: #8fb900;
+    color: #FFF;
+}
+
+.btn {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    display: block;
+}
+
+header a:hover {
+    color: #8fb900;
+    background-color: #FFF;
+    transition-duration: 0.5s;
+}
+
+@media all and (max-width: 380px) {
+    header .container {
+        flex-direction: column;
+    }
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.container {
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    font-weight: bold;
+    margin: auto;
+}
+
+.main-image div {
+    background-color: rgba(185, 0, 50, 0.4);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 100%;
+}
+
+.main-image p {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 17px;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.main-image {
+    position: relative;
+}
+
+@media all and (max-width: 500px) {
+    .main-image div {
+        position: static;
+        height: auto;
+    }
+}
+
+.item {
+    max-width: 280px;
+    border: 1px solid #b90032;
+    margin-top: 25px;
+}
+
+.item img {
+    width: 280px;
+    height: 190px;
+}
+
+.item-description {
+    padding: 10px;
+}
+
+.container-item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.business {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.business img {
+    width: 100%;
+    height: 365px;
+}
+
+.business-img {
+    width: 577px;
+}
+
+.description-business {
+    max-width: 570px;
+}
+
+footer {
+    background-color: #8fb900;
+    color: #FFF;
+    margin-top: 80px;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+footer p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media all and (max-width: 540px) {
+    footer .container {
+        flex-direction: column;
+    }
+}
+
+
